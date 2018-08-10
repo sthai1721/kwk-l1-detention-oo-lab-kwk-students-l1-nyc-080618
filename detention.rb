@@ -7,7 +7,7 @@ class Detention
   end
  
  def activity
-   @activity
+   return @activity
  end
 
   def location
