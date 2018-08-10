@@ -13,4 +13,12 @@ class Detention
     @location=room
   end
   
+  def time
+    @time
+  end
+  
+  def time=(clock)
+    @time=clock
+  end
+  
 end
