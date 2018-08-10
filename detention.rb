@@ -21,4 +21,12 @@ class Detention
     @time=clock
   end
   
+  def grumpy_teacher
+    @grump_teacher
+  end
+  
+  def grumpy_teacher=(teacher)
+    @grump_teacher=teacher
+  end
+  
 end
