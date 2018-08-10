@@ -4,6 +4,7 @@ class Detention
   
   def initialize
     @activity="collective punishment"
+    @students=[]
   end
  
  def activity
@@ -35,7 +36,7 @@ class Detention
   end
   
   def students
-  @students=[]
+  @students
   end
   
 
