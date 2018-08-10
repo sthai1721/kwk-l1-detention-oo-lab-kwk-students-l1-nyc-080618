@@ -38,8 +38,8 @@ class Detention
   @students=[]
   end
   
-  def add_students(name)
   x=0
+  def add_students(name)
   @students[x]=name
   x+=1
   end
