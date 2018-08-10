@@ -39,9 +39,9 @@ class Detention
   end
   
 
-  # def add_student(name)
-  # @students.push(name)
-  # end
+  def add_student(name)
+  @students.push(name)
+  end
   
   
 
