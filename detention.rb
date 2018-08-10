@@ -34,4 +34,8 @@ class Detention
     @grump_teacher=teacher
   end
   
+  def students
+  @students
+  end
+  
 end
