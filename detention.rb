@@ -6,6 +6,10 @@ class Detention
     @activity=collective_punishment
   end
   
+  def activity
+    @activity
+  end
+  
   def location
     @location
   end
