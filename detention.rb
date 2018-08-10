@@ -2,7 +2,7 @@
 
 class Detention
   
-  def intialize
+  def initialize
     @activity="collective punishment"
   end
  
