@@ -50,8 +50,10 @@ class Detention
     while count<=x
     if  @students[count] == name
       break
+    count+=1
     end
-    @students.del(name)
+    end
+    @students.delete_at(count)
   end
   
 
