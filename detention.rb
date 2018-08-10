@@ -5,4 +5,7 @@ class Detention
   def intialize
   end
   
+  def location
+  end
+  
 end
