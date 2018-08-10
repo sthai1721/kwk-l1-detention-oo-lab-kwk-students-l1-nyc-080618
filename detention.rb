@@ -38,4 +38,6 @@ class Detention
   @students
   end
   
+ 
+  
 end
