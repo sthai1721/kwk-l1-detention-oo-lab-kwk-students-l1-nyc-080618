@@ -45,7 +45,7 @@ class Detention
   end
   
   def remove_student(name)
-    @students.pop(name)
+    @students.remove(name)
   end
   
 
