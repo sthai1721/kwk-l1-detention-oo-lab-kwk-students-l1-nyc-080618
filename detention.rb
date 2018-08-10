@@ -10,6 +10,10 @@ class Detention
     @activity
   end
   
+   def activity=(punishment)
+    @activity=punishment
+  end
+  
   def location
     @location
   end
